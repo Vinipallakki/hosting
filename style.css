@@ -7,9 +7,25 @@ body {
 
 header {
     background-color: #006400;
-    color: white;
     text-align: center;
     padding: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    color: white; /* Default color for Ayurvedic Oil */
+}
+
+header h1 .highlight {
+    color: #FFD700; /* Yellow for Highnesss */
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.4); /* subtle glow */
+}
+
+header p {
+    margin: 10px 0;
+    color: white;
 }
 
 header nav a {
@@ -67,4 +83,18 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+#ingredients ul {
+    list-style: none;
+    padding: 0;
+}
+
+#ingredients li {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+}
+
+#ingredients li strong {
+    color: #006400;
 }
