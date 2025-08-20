@@ -5,8 +5,10 @@ body {
     color: #333;
 }
 
+/* Header */
 header {
     background-color: #006400;
+    color: white;
     text-align: center;
     padding: 20px;
 }
@@ -15,17 +17,11 @@ header h1 {
     font-size: 3rem;
     font-weight: bold;
     margin: 0;
-    color: white; /* Default color for Ayurvedic Oil */
 }
 
 header h1 .highlight {
-    color: #FFD700; /* Yellow for Highnesss */
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.4); /* subtle glow */
-}
-
-header p {
-    margin: 10px 0;
-    color: white;
+    color: #FFD700; /* Yellow */
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.4); /* glow effect */
 }
 
 header nav a {
@@ -34,6 +30,7 @@ header nav a {
     text-decoration: none;
 }
 
+/* Hero Section */
 .hero {
     background: url('hero-bg.jpg') center/cover no-repeat;
     text-align: center;
@@ -54,11 +51,13 @@ header nav a {
     display: inline-block;
 }
 
+/* Sections */
 section {
     padding: 40px 20px;
     text-align: center;
 }
 
+/* Product Card */
 .product-card {
     background: white;
     padding: 20px;
@@ -78,23 +77,42 @@ section {
     color: #006400;
 }
 
+/* Ingredients Section */
+#ingredients {
+    background-color: #fffef5;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#ingredients h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #006400; /* Dark green */
+}
+
+.ingredients-list {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 1.8;
+}
+
+.ingredients-list p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.ingredients-list span {
+    font-weight: bold;
+    color: #b8860b; /* Golden-brown for ingredient names */
+}
+
+/* Footer */
 footer {
     background-color: #006400;
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-#ingredients ul {
-    list-style: none;
-    padding: 0;
-}
-
-#ingredients li {
-    margin-bottom: 12px;
-    font-size: 1.1rem;
-}
-
-#ingredients li strong {
-    color: #006400;
 }
