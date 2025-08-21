@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Highnesss Ayurvedic Oil</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Extra styling for ingredients */
+        #ingredients .ingredients-list span {
+            color: #2e8b57; /* green shade */
+            font-weight: bold;
+        }
+        .product-gallery {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        .product-gallery img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        #contact p {
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        #contact a {
+            color: #0077cc;
+            text-decoration: none;
+        }
+        #contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
@@ -55,6 +86,13 @@
     <section id="product" class="product-card">
         <h2>Our Product</h2>
         <img src="image_1.jpeg" alt="Highnesss Ayurvedic Oil" class="product-img">
+        
+        <!-- Extra Images -->
+        <div class="product-gallery">
+            <img src="image_2.jpeg" alt="Highnesss Ayurvedic Oil - Side View">
+            <img src="image_3.jpeg" alt="Highnesss Ayurvedic Oil - Back View">
+        </div>
+
         <div class="price-box">
             <p class="price">₹390</p>
             <a href="#contact" class="btn">Shop Now</a>
@@ -83,6 +121,15 @@
         </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>📞 Manohar: 7406673588</p>
+        <p>📞 Sunil: 9538334245</p>
+        <p> Address: chikkabanavara, Bengaluru-560090
+        <p>📧 Email: <a href="mailto:highness.ayur@gmail.com">highness.ayur@gmail.com</a></p>
+    </section>
+
     <!-- Footer -->
     <footer>
         <p>&copy; 2025 Highnesss Ayurvedic Oil. All Rights Reserved.</p> 
@@ -90,4 +137,3 @@
 
 </body>
 </html>
-
