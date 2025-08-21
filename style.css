@@ -1,103 +1,36 @@
-/* General Styling */
-body {
-    font-family: 'Georgia', serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background: #faf9f6;
+/* Highlight for ingredients */
+#ingredients .ingredients-list span {
+    color: #2e8b57; /* green shade */
+    font-weight: bold;
 }
 
-header {
-    text-align: center;
-    padding: 20px;
-    background: linear-gradient(90deg, #0b3d2e, #145c3c);
-    color: #fff;
+/* Product gallery */
+.product-gallery {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
 }
 
-header h1 .highlight {
-    color: #f4c542; /* Gold highlight */
+.product-gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-nav a {
-    margin: 0 10px;
+/* Contact details */
+#contact p {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#contact a {
+    color: #0077cc;
     text-decoration: none;
-    color: #fff;
-    font-weight: bold;
 }
 
-nav a:hover {
-    color: #f4c542;
-}
-
-/* Hero Section */
-.hero {
-    text-align: center;
-    padding: 50px 20px;
-    background: url('image_1.jpeg') center/cover no-repeat;
-    color: white;
-    text-shadow: 2px 2px 4px #000;
-}
-
-.hero h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 12px 25px;
-    background: #f4c542;
-    color: #0b3d2e;
-    font-weight: bold;
-    border-radius: 30px;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background: #fff;
-    color: #0b3d2e;
-    border: 2px solid #f4c542;
-}
-
-/* Product Card */
-.product-card {
-    text-align: center;
-    padding: 40px 20px;
-    background: #fff;
-    margin: 40px auto;
-    border-radius: 15px;
-    width: 80%;
-    max-width: 600px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-.product-img {
-    width: 250px;
-    border-radius: 12px;
-    margin-bottom: 20px;
-}
-
-.price-box {
-    background: linear-gradient(90deg, #f4c542, #ffd966);
-    padding: 15px;
-    border-radius: 12px;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.price {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: #0b3d2e;
-    margin-bottom: 10px;
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 15px;
-    background: #0b3d2e;
-    color: #fff;
-    margin-top: 40px;
+#contact a:hover {
+    text-decoration: underline;
 }
