@@ -1,118 +1,103 @@
+/* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif;
     margin: 0;
-    background-color: #fffef5;
+    padding: 0;
     color: #333;
+    background: #faf9f6;
 }
 
-/* Header */
 header {
-    background-color: #006400;
-    color: white;
     text-align: center;
     padding: 20px;
-}
-
-header h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    margin: 0;
+    background: linear-gradient(90deg, #0b3d2e, #145c3c);
+    color: #fff;
 }
 
 header h1 .highlight {
-    color: #FFD700; /* Yellow */
-    text-shadow: 2px 2px 6px rgba(0,0,0,0.4); /* glow effect */
+    color: #f4c542; /* Gold highlight */
 }
 
-header nav a {
-    color: white;
+nav a {
     margin: 0 10px;
     text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f4c542;
 }
 
 /* Hero Section */
 .hero {
-    background: url('hero-bg.jpg') center/cover no-repeat;
     text-align: center;
-    padding: 80px 20px;
+    padding: 50px 20px;
+    background: url('image_1.jpeg') center/cover no-repeat;
     color: white;
+    text-shadow: 2px 2px 4px #000;
 }
 
 .hero h2 {
-    font-size: 2em;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 .btn {
-    background-color: #ffcc00;
-    padding: 10px 20px;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
     display: inline-block;
+    padding: 12px 25px;
+    background: #f4c542;
+    color: #0b3d2e;
+    font-weight: bold;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
-/* Sections */
-section {
-    padding: 40px 20px;
-    text-align: center;
+.btn:hover {
+    background: #fff;
+    color: #0b3d2e;
+    border: 2px solid #f4c542;
 }
 
 /* Product Card */
 .product-card {
-    background: white;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    display: inline-block;
-    max-width: 300px;
+    text-align: center;
+    padding: 40px 20px;
+    background: #fff;
+    margin: 40px auto;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-.product-card img {
-    width: 100%;
-    border-radius: 8px;
+.product-img {
+    width: 250px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.price-box {
+    background: linear-gradient(90deg, #f4c542, #ffd966);
+    padding: 15px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 .price {
-    font-size: 1.2em;
-    color: #006400;
-}
-
-/* Ingredients Section */
-#ingredients {
-    background-color: #fffef5;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-#ingredients h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+    font-size: 1.8rem;
     font-weight: bold;
-    color: #006400; /* Dark green */
-}
-
-.ingredients-list {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: left;
-    line-height: 1.8;
-}
-
-.ingredients-list p {
-    margin: 10px 0;
-    font-size: 1.1em;
-    color: #333;
-}
-
-.ingredients-list span {
-    font-weight: bold;
-    color: #b8860b; /* Golden-brown for ingredient names */
+    color: #0b3d2e;
+    margin-bottom: 10px;
 }
 
 /* Footer */
 footer {
-    background-color: #006400;
-    color: white;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
+    background: #0b3d2e;
+    color: #fff;
+    margin-top: 40px;
 }
